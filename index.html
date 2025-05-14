@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Multi-Currency Wallet DApp</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Multi-Currency Wallet DApp</h1>
+  <button id="connectButton">Connect Wallet</button>
+  <p>Connected Address: <span id="walletAddress">Not connected</span></p>
+  <p>Balance: <span id="balance">0</span></p>
+
+  <h3>Send ETH/BNB</h3>
+  <input id="toAddress" placeholder="Recipient Address" />
+  <input id="amount" placeholder="Amount" />
+  <button id="sendButton">Send</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
